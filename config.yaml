@@ -1,0 +1,13 @@
+# Parameters for the swarm
+swarm:
+  N: 100
+  space_dim: [100, 100, 100]
+  num_anchors: 3
+
+# Parameters for the drones
+drone:
+  cutoff_distance: 50
+
+# Parameters for the consensus algorithm
+consensus:
+  rounds: 100
